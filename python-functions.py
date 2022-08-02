@@ -15,3 +15,8 @@
 #   return largest_num
 
 # print(largest([1, 2, 3, 4]))
+
+# def occurences(string, occ):
+#   return string.count(occ)
+
+# print(occurences('hello', 'o'))
