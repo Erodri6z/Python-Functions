@@ -20,3 +20,11 @@
 #   return string.count(occ)
 
 # print(occurences('hello', 'o'))
+
+def product(*args):
+  total = 1
+  for num in args:
+    total *= num
+  return total
+
+print(product(1, 2, 3))
